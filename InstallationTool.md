@@ -56,6 +56,12 @@ git clone https://github.com/rampageX/firmware-mod-kit
 ```
 git clone https://github.com/craigz28/firmwalker
 ```
+[The Firmware Analysis and Comparison Tool (FACT)](https://github.com/fkie-cad/FACT_core)
+
+```
+git clone https://github.com/fkie-cad/FACT_core
+./start_all_installed_fact_components
+```
 
 [RopGadget](https://github.com/JonathanSalwan/ROPgadget)
 
