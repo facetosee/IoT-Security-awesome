@@ -62,6 +62,12 @@ git clone https://github.com/craigz28/firmwalker
 git clone https://github.com/fkie-cad/FACT_core
 ./start_all_installed_fact_components
 ```
+[Checksec.sh](https://github.com/slimm609/checksec.sh)
+
+```
+git clone https://github.com/slimm609/checksec.sh
+```
+
 
 [RopGadget](https://github.com/JonathanSalwan/ROPgadget)
 
