@@ -1,0 +1,6 @@
+node-semver
+prompt-toolkit
+requests
+six
+tabulate
+wcwidth

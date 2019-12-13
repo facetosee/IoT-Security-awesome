@@ -51,6 +51,12 @@ git clone https://github.com/rampageX/firmware-mod-kit
 
 [Firmware Analysis Toolkit](https://github.com/attify/firmware-analysis-toolkit)
 
+[Firmwalker](https://github.com/craigz28/firmwalker)
+
+```
+git clone https://github.com/craigz28/firmwalker
+```
+
 [RopGadget](https://github.com/JonathanSalwan/ROPgadget)
 
 [Jadx]
@@ -70,7 +76,20 @@ apt install gnuradio
 ```
 
 [GQRX](http://gqrx.dk/)
-## References
+
+## References Tools
 
 - https://github.com/V33RU/IoTSecurity101
 - https://github.com/adi0x90/attifyos
+- https://github.com/scriptingxss/EmbedOS
+
+
+# Firmware
+
+- [DVRF](https://github.com/praetorian-code/DVRF)
+- [IoTGoat](https://github.com/scriptingxss/IoTGoat)
+
+# OS
+- [EmbedOS](https://github.com/scriptingxss/EmbedOS)
+- [AttifyOs](https://github.com/adi0x90/attifyos)
+- [Kali](https://www.kali.org/)

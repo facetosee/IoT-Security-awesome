@@ -1,0 +1,4 @@
+[console_scripts]
+isf = isf.main:main
+isfpm = isf.isfpm.cli:main
+

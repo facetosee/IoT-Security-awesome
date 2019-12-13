@@ -1,0 +1,536 @@
+***Firmware Directory***
+../../Firmware/IoTGoat/build_environment/prebuilt_images/_IoTGoat-raspberry-pi2.img.extracted/squashfs-root/
+***Search for password files***
+##################################### passwd
+/etc/passwd
+/bin/passwd
+
+##################################### shadow
+/etc/shadow
+
+##################################### *.psk
+
+***Search for Unix-MD5 hashes***
+Binary file ../../Firmware/IoTGoat/build_environment/prebuilt_images/_IoTGoat-raspberry-pi2.img.extracted/squashfs-root/lib/libc.so matches
+../../Firmware/IoTGoat/build_environment/prebuilt_images/_IoTGoat-raspberry-pi2.img.extracted/squashfs-root/etc/shadow:$1$Jl7H1VOG$Wgw2F/C.nLNTC.4pwDa4H1
+../../Firmware/IoTGoat/build_environment/prebuilt_images/_IoTGoat-raspberry-pi2.img.extracted/squashfs-root/etc/shadow:$1$79bz0K8z$Ii6Q/if83F1QodGmkb4Ah.
+../../Firmware/IoTGoat/build_environment/prebuilt_images/_IoTGoat-raspberry-pi2.img.extracted/squashfs-root/etc/shadow.bak:$1$KzoHhzG9$wGyFXbWOcRChy3e.Ep2NY1
+
+
+***Search for SSL related files***
+##################################### *.crt
+
+##################################### *.pem
+
+##################################### *.cer
+
+##################################### *.p7b
+
+##################################### *.p12
+
+##################################### *.key
+
+
+***Search for SSH related files***
+##################################### authorized_keys
+
+##################################### *authorized_keys*
+
+##################################### host_key
+
+##################################### *host_key*
+/etc/dropbear/dropbear_rsa_host_key
+
+##################################### id_rsa
+
+##################################### *id_rsa*
+
+##################################### id_dsa
+
+##################################### *id_dsa*
+
+##################################### *.pub
+
+
+***Search for files***
+##################################### *.conf
+/lib/preinit/00_preinit.conf
+/etc/sysctl.d/10-default.conf
+/etc/sysctl.d/11-nf-conntrack.conf
+/etc/sysctl.conf
+/etc/ppp/resolv.conf
+/etc/resolv.conf
+/etc/opkg/customfeeds.conf
+/etc/opkg/distfeeds.conf
+/etc/opkg.conf
+/etc/sysupgrade.conf
+/etc/dnsmasq.conf
+/etc/e2fsck.conf
+/usr/share/fw3/helpers.conf
+/usr/share/dnsmasq/rfc6761.conf
+/usr/share/dnsmasq/dhcpbogushostname.conf
+
+##################################### *.cfg
+
+##################################### *.ini
+
+
+***Search for database related files***
+##################################### *.db
+/lib/firmware/regulatory.db
+
+##################################### *.sqlite
+
+##################################### *.sqlite3
+
+
+***Search for shell scripts***
+##################################### shell scripts
+/lib/config/uci.sh
+/lib/functions/system.sh
+/lib/functions/procd.sh
+/lib/functions/leds.sh
+/lib/functions/fsck/e2fsck.sh
+/lib/functions/uci-defaults.sh
+/lib/functions/preinit.sh
+/lib/functions/service.sh
+/lib/functions/network.sh
+/lib/upgrade/common.sh
+/lib/upgrade/fwtool.sh
+/lib/upgrade/luci-add-conffiles.sh
+/lib/upgrade/platform.sh
+/lib/functions.sh
+/lib/wifi/mac80211.sh
+/lib/netifd/hostapd.sh
+/lib/netifd/wireless/mac80211.sh
+/lib/netifd/netifd-proto.sh
+/lib/netifd/utils.sh
+/lib/netifd/proto/dhcpv6.sh
+/lib/netifd/proto/ppp.sh
+/lib/netifd/proto/dhcp.sh
+/lib/netifd/netifd-wireless.sh
+/lib/network/config.sh
+/etc/diag.sh
+/usr/share/libubox/jshn.sh
+/usr/lib/dnsmasq/dhcp-script.sh
+/usr/libexec/login.sh
+/sbin/led.sh
+/bin/ipcalc.sh
+
+***Search for other .bin files***
+##################################### bin files
+/lib/firmware/brcm/brcmfmac43430-sdio.bin
+/lib/firmware/brcm/brcmfmac43143.bin
+/lib/firmware/brcm/brcmfmac43236b.bin
+
+***Search for patterns in files***
+-------------------- upgrade --------------------
+/lib/functions/system.sh
+/lib/upgrade/common.sh
+/lib/upgrade/platform.sh
+/lib/upgrade/stage2
+/lib/libfstools.so
+/etc/sysupgrade.conf
+/usr/lib/lua/luci/view/admin_system/packages.htm
+/usr/lib/lua/luci/controller/admin/system.lua
+/usr/lib/lua/luci/model/cbi/admin_system/fstab.lua
+/usr/lib/lua/luci/model/cbi/admin_system/backupfiles.lua
+/usr/lib/lua/luci/model/ipkg.lua
+/usr/lib/opkg/info/uhttpd.list
+/usr/lib/opkg/info/opkg.list
+/usr/lib/opkg/info/luci-mod-admin-full.list
+/usr/lib/opkg/info/luci-lib-nixio.list
+/usr/lib/opkg/info/mtd.control
+/usr/lib/opkg/info/base-files.list
+/usr/lib/opkg/info/ppp.list
+/usr/lib/opkg/info/luci-base.list
+/usr/lib/libext2fs.so.2.4
+/usr/sbin/iw
+/sbin/sysupgrade
+/sbin/upgraded
+/bin/opkg
+
+-------------------- admin --------------------
+/usr/lib/lua/luci/view/admin_uci/revert.htm
+/usr/lib/lua/luci/view/admin_uci/changes.htm
+/usr/lib/lua/luci/view/upnp_status.htm
+/usr/lib/lua/luci/view/admin_system/clock_status.htm
+/usr/lib/lua/luci/view/admin_system/ipkg.htm
+/usr/lib/lua/luci/view/admin_system/reboot.htm
+/usr/lib/lua/luci/view/admin_system/backupfiles.htm
+/usr/lib/lua/luci/view/admin_system/flashops.htm
+/usr/lib/lua/luci/view/iotgoat/cmd.htm
+/usr/lib/lua/luci/view/cbi/apply_widget.htm
+/usr/lib/lua/luci/view/cbi/browser.htm
+/usr/lib/lua/luci/view/cbi/header.htm
+/usr/lib/lua/luci/view/cbi/filebrowser.htm
+/usr/lib/lua/luci/view/themes/bootstrap/header.htm
+/usr/lib/lua/luci/view/admin_status/bandwidth.htm
+/usr/lib/lua/luci/view/admin_status/connections.htm
+/usr/lib/lua/luci/view/admin_status/iptables.htm
+/usr/lib/lua/luci/view/admin_status/load.htm
+/usr/lib/lua/luci/view/admin_status/wireless.htm
+/usr/lib/lua/luci/view/admin_network/iface_overview_status.htm
+/usr/lib/lua/luci/view/admin_network/switch_status.htm
+/usr/lib/lua/luci/view/admin_network/lease_status.htm
+/usr/lib/lua/luci/view/admin_network/wifi_assoclist.htm
+/usr/lib/lua/luci/view/admin_network/iface_status.htm
+/usr/lib/lua/luci/view/admin_network/wifi_status.htm
+/usr/lib/lua/luci/view/admin_network/diagnostics.htm
+/usr/lib/lua/luci/view/admin_network/wifi_join.htm
+/usr/lib/lua/luci/view/admin_network/wifi_overview_status.htm
+/usr/lib/lua/luci/controller/upnp.lua
+/usr/lib/lua/luci/controller/iotgoat/iotgoat.lua
+/usr/lib/lua/luci/controller/admin/status.lua
+/usr/lib/lua/luci/controller/admin/filebrowser.lua
+/usr/lib/lua/luci/controller/admin/network.lua
+/usr/lib/lua/luci/controller/admin/uci.lua
+/usr/lib/lua/luci/controller/admin/index.lua
+/usr/lib/lua/luci/controller/admin/system.lua
+/usr/lib/lua/luci/controller/firewall.lua
+/usr/lib/lua/luci/dispatcher.lua
+/usr/lib/lua/luci/tools/webadmin.lua
+/usr/lib/lua/luci/model/cbi/admin_system/fstab.lua
+/usr/lib/lua/luci/model/cbi/admin_system/fstab/mount.lua
+/usr/lib/lua/luci/model/cbi/admin_system/fstab/swap.lua
+/usr/lib/lua/luci/model/cbi/admin_system/backupfiles.lua
+/usr/lib/lua/luci/model/cbi/admin_system/system.lua
+/usr/lib/lua/luci/model/cbi/firewall/forwards.lua
+/usr/lib/lua/luci/model/cbi/firewall/rules.lua
+/usr/lib/lua/luci/model/cbi/firewall/zones.lua
+/usr/lib/lua/luci/model/cbi/firewall/rule-details.lua
+/usr/lib/lua/luci/model/cbi/firewall/zone-details.lua
+/usr/lib/lua/luci/model/cbi/firewall/forward-details.lua
+/usr/lib/lua/luci/model/cbi/admin_network/ifaces.lua
+/usr/lib/lua/luci/model/cbi/admin_network/wifi_add.lua
+/usr/lib/lua/luci/model/cbi/admin_network/network.lua
+/usr/lib/lua/luci/model/cbi/admin_network/wifi_overview.lua
+/usr/lib/lua/luci/model/cbi/admin_network/wifi.lua
+/usr/lib/lua/luci/model/cbi/admin_network/iface_add.lua
+/usr/lib/lua/luci/model/network.lua
+/usr/lib/opkg/status
+/usr/lib/opkg/info/luci-mod-admin-full.list
+/usr/lib/opkg/info/luci.control
+/usr/lib/opkg/info/luci-mod-admin-full.control
+/usr/lib/libiptext6.so
+/usr/lib/libiptext4.so
+/sbin/fw3
+
+-------------------- root --------------------
+/lib/modules/4.9.152/fat.ko
+/lib/functions/preinit.sh
+/lib/upgrade/common.sh
+/lib/upgrade/platform.sh
+/lib/upgrade/stage2
+/lib/functions.sh
+/lib/libfstools.so
+/etc/passwd
+/etc/firewall.user
+/etc/config/rpcd
+/etc/config/uhttpd
+/etc/group
+/etc/init.d/dropbear
+/etc/init.d/led
+/etc/init.d/dnsmasq
+/etc/banner.failsafe
+/etc/uci-defaults/10_migrate-shadow
+/etc/shadow
+/etc/shadow.bak
+/etc/profile
+/etc/opkg.conf
+/usr/lib/libip6tc.so.0.1.0
+/usr/lib/pppd/2.4.7/rp-pppoe.so
+/usr/lib/lua/luci/view/iotgoat/cmd.htm
+/usr/lib/lua/luci/view/cbi/filebrowser.htm
+/usr/lib/lua/luci/view/themes/bootstrap/header.htm
+/usr/lib/lua/luci/controller/admin/uci.lua
+/usr/lib/lua/luci/controller/admin/index.lua
+/usr/lib/lua/luci/controller/admin/system.lua
+/usr/lib/lua/luci/dispatcher.lua
+/usr/lib/lua/luci/model/cbi/admin_system/fstab.lua
+/usr/lib/lua/luci/model/cbi/admin_system/fstab/mount.lua
+/usr/lib/lua/luci/model/cbi/admin_system/admin.lua
+/usr/lib/lua/luci/model/cbi/admin_system/crontab.lua
+/usr/lib/lua/luci/model/cbi/admin_network/dhcp.lua
+/usr/lib/libip4tc.so.0.1.0
+/usr/lib/libf2fs.so.4.0.0
+/usr/lib/libblkid.so.1.1.0
+/usr/sbin/mkfs.f2fs
+/usr/sbin/mke2fs
+/usr/sbin/miniupnpd
+/usr/sbin/dropbear
+/usr/sbin/pppd
+/usr/sbin/odhcpd
+/usr/sbin/uhttpd
+/usr/sbin/dnsmasq
+/usr/sbin/e2fsck
+/sbin/hotplug-call
+/sbin/urandom_seed
+/sbin/mount_root
+/bin/opkg
+/bin/busybox
+
+-------------------- password --------------------
+/lib/netifd/hostapd.sh
+/lib/netifd/proto/ppp.sh
+/www/luci-static/bootstrap/cascade.css
+/etc/config/rpcd
+/etc/config/uhttpd
+/etc/ppp/chap-secrets
+/etc/init.d/uhttpd
+/etc/banner.failsafe
+/etc/uci-defaults/10_migrate-shadow
+/etc/profile
+/usr/lib/libmbedcrypto.so.2.12.0
+/usr/lib/lua/luci/view/cbi/firewall_zonelist.htm
+/usr/lib/lua/luci/view/cbi/dropdown.htm
+/usr/lib/lua/luci/view/cbi/value.htm
+/usr/lib/lua/luci/view/cbi/network_ifacelist.htm
+/usr/lib/lua/luci/view/cbi/network_netlist.htm
+/usr/lib/lua/luci/view/sysauth.htm
+/usr/lib/lua/luci/view/themes/bootstrap/header.htm
+/usr/lib/lua/luci/sys.lua
+/usr/lib/lua/luci/dispatcher.lua
+/usr/lib/lua/luci/model/cbi/admin_system/admin.lua
+/usr/lib/lua/luci/model/cbi/admin_network/proto_ahcp.lua
+/usr/lib/lua/luci/model/cbi/admin_network/proto_pptp.lua
+/usr/lib/lua/luci/model/cbi/admin_network/proto_6in4.lua
+/usr/lib/lua/luci/model/cbi/admin_network/proto_pppoa.lua
+/usr/lib/lua/luci/model/cbi/admin_network/wifi_add.lua
+/usr/lib/lua/luci/model/cbi/admin_network/proto_ppp.lua
+/usr/lib/lua/luci/model/cbi/admin_network/proto_l2tp.lua
+/usr/lib/lua/luci/model/cbi/admin_network/wifi.lua
+/usr/lib/lua/luci/model/cbi/admin_network/proto_6rd.lua
+/usr/lib/lua/luci/model/cbi/admin_network/proto_pppoe.lua
+/usr/sbin/dropbear
+/usr/sbin/wpad
+/usr/sbin/pppd
+/usr/bin/usign
+/sbin/rpcd
+/bin/uclient-fetch
+/bin/config_generate
+/bin/busybox
+
+-------------------- passwd --------------------
+/lib/libc.so
+/lib/upgrade/keep.d/base-files-essential
+/lib/functions.sh
+/etc/config/luci
+/etc/init.d/dnsmasq
+/etc/banner.failsafe
+/etc/uci-defaults/10_migrate-shadow
+/etc/profile
+/usr/lib/lua/luci/sys.lua
+/usr/lib/lua/luci/controller/admin/system.lua
+/usr/lib/lua/nixio.so
+/usr/lib/opkg/status
+/usr/lib/opkg/info/busybox.list
+/usr/lib/opkg/info/base-files.conffiles
+/usr/lib/opkg/info/base-files.list
+/usr/sbin/pppd
+/bin/busybox
+
+-------------------- pwd --------------------
+/lib/libc.so
+/usr/lib/opkg/info/busybox.list
+/bin/busybox
+
+-------------------- dropbear --------------------
+/lib/preinit/99_10_failsafe_login
+/lib/upgrade/keep.d/base-files
+/lib/upgrade/stage2
+/etc/config/dropbear
+/etc/config/luci
+/etc/config/ucitrack
+/etc/init.d/dropbear
+/usr/lib/lua/luci/controller/admin/system.lua
+/usr/lib/lua/luci/model/cbi/admin_system/admin.lua
+/usr/lib/opkg/status
+/usr/lib/opkg/info/dropbear.control
+/usr/lib/opkg/info/dropbear.conffiles
+/usr/lib/opkg/info/dropbear.list
+/usr/sbin/dropbear
+
+-------------------- ssl --------------------
+/lib/upgrade/luci-add-conffiles.sh
+/lib/libustream-ssl.so
+/etc/init.d/uhttpd
+/usr/lib/libmbedcrypto.so.2.12.0
+/usr/lib/opkg/status
+/usr/lib/opkg/info/luci-ssl.control
+/usr/lib/opkg/info/libustream-mbedtls.list
+/usr/lib/opkg/info/libustream-mbedtls.control
+/usr/sbin/uhttpd
+/bin/opkg
+/bin/uclient-fetch
+
+-------------------- private key --------------------
+/etc/config/uhttpd
+/usr/lib/libmbedcrypto.so.2.12.0
+/usr/lib/lua/luci/model/cbi/admin_network/wifi.lua
+/usr/sbin/dropbear
+/usr/sbin/wpad
+/usr/sbin/px5g
+/usr/sbin/uhttpd
+/usr/bin/usign
+
+-------------------- telnet --------------------
+/etc/services
+/usr/lib/opkg/info/busybox.list
+/bin/busybox
+
+-------------------- secret --------------------
+/usr/lib/libmbedtls.so.2.12.0
+/usr/lib/libmbedcrypto.so.2.12.0
+/usr/lib/lua/luci/view/iotgoat/cmd.htm
+/usr/lib/lua/luci/model/cbi/admin_network/wifi_add.lua
+/usr/lib/lua/luci/model/cbi/admin_network/wifi.lua
+/usr/sbin/dropbear
+/usr/sbin/pppd
+/usr/bin/usign
+
+-------------------- pgp --------------------
+/lib/firmware/brcm/brcmfmac43430-sdio.bin
+/lib/firmware/brcm/brcmfmac43143.bin
+/lib/firmware/brcm/brcmfmac43236b.bin
+/www/luci-static/bootstrap/blue-logo-icon.png
+
+-------------------- gpg --------------------
+/lib/firmware/brcm/brcmfmac43430-sdio.bin
+/usr/lib/opkg/info/openwrt-keyring.control
+
+-------------------- token --------------------
+/www/luci-static/resources/cbi.js
+/usr/lib/lua/luci/view/admin_uci/changes.htm
+/usr/lib/lua/luci/view/upnp_status.htm
+/usr/lib/lua/luci/view/admin_system/clock_status.htm
+/usr/lib/lua/luci/view/admin_system/reboot.htm
+/usr/lib/lua/luci/view/admin_system/flashops.htm
+/usr/lib/lua/luci/view/admin_system/packages.htm
+/usr/lib/lua/luci/view/admin_system/upgrade.htm
+/usr/lib/lua/luci/view/cbi/apply_widget.htm
+/usr/lib/lua/luci/view/cbi/header.htm
+/usr/lib/lua/luci/view/cbi/simpleform.htm
+/usr/lib/lua/luci/view/admin_status/iptables.htm
+/usr/lib/lua/luci/view/admin_network/iface_overview_status.htm
+/usr/lib/lua/luci/view/admin_network/diagnostics.htm
+/usr/lib/lua/luci/view/admin_network/wifi_join.htm
+/usr/lib/lua/luci/view/admin_network/wifi_overview_status.htm
+/usr/lib/lua/luci/view/csrftoken.htm
+/usr/lib/lua/luci/controller/admin/uci.lua
+/usr/lib/lua/luci/cbi/datatypes.lua
+/usr/lib/lua/luci/dispatcher.lua
+/usr/lib/lua/luci/util.lua
+/usr/lib/lua/luci/cbi.lua
+/usr/lib/lua/luci/model/uci.lua
+/usr/lib/libblkid.so.1.1.0
+/usr/sbin/pppd
+/bin/busybox
+
+-------------------- api key --------------------
+
+-------------------- oauth --------------------
+
+
+***Search for web servers***
+##################################### search for web servers
+##################################### apache
+
+##################################### lighttpd
+
+##################################### alphapd
+
+##################################### httpd
+
+
+***Search for important binaries***
+##################################### important binaries
+##################################### ssh
+/usr/bin/ssh
+
+##################################### sshd
+
+##################################### scp
+/usr/bin/scp
+
+##################################### sftp
+
+##################################### tftp
+/etc/hotplug.d/tftp
+
+##################################### dropbear
+/etc/config/dropbear
+/etc/init.d/dropbear
+/etc/dropbear
+/usr/sbin/dropbear
+
+##################################### busybox
+/bin/busybox
+
+##################################### telnet
+/usr/bin/telnet
+
+##################################### telnetd
+/usr/sbin/telnetd
+
+##################################### openssl
+
+
+***Search for ip addresses***
+##################################### ip addresses
+0.0.0.0
+10.1.2.3
+1.2.3.4
+127.0.0.0
+127.0.0.1
+192.168.0.199
+192.168.1.1
+192.168.1.255
+192.168.16.235
+192.168.2.1
+192.168.2.2
+192.168.45.2
+194.25.2.129
+2.2.2.2
+255.0.0.0
+255.255.0.0
+255.255.255.0
+255.255.255.255
+64.94.110.11
+67.215.65.132
+
+***Search for urls***
+##################################### urls
+http://*|\
+http://192.168.1.1
+http://bugs.openwrt.org
+http://downloads.openwrt.org
+http://forum.lede-project.org
+http://lua-users.org
+http://openwrt.org
+https://*)
+https://dev.openwrt.org
+https://github.com
+https://' : 'http:
+https://openwrt.org
+https://' + window.location.hostname + ':' + '<%=https_port%>' + '<%=resource%>
+https://' + window.location.hostname + ':' + '<%=https_port%>' + window.location.pathname;
+http://www.apache.org
+http://www.example.com
+http://www.iana.org
+http://www.w3.org
+
+***Search for emails***
+##################################### emails
+carsten.tittel@fokus.fraunhofer.de
+david@nut-bolt.nl
+dedeckeh@gmail.com
+john.doe@example.com
+john@phrozen.org
+jo@mein.io
+jow@openwrt.org
+ldir@darbyshire-bryant.me.uk
+mail@danrl.com
+nbd@nbd.name
+steven@midlink.org
+yszhou4tech@gmail.com
