@@ -71,6 +71,13 @@ git clone https://github.com/slimm609/checksec.sh
 
 [RopGadget](https://github.com/JonathanSalwan/ROPgadget)
 
+
+[Qemu](https://www.qemu.org/)
+
+```
+apt-get install qemu
+```
+
 [Jadx]
 
 [DexJar]
