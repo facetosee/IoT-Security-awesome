@@ -308,6 +308,13 @@ sudo apt-get install qemu
 
 ```
 Download https://mitmproxy.org/downloads/
+
+OR
+
+sudo apt install python3-pip
+sudo pip3 install -U pip
+sudo pip3 install mitmproxy
+
 ```
 
 [KillerBee](https://github.com/riverloopsec/killerbee)
