@@ -6,6 +6,23 @@
 pip3 install expliot --user
 ```
 
+[Docker]
+
+```
+curl -fsSL https://download.docker.com/linux/debian/gpg | apt-key add -
+echo 'deb [arch=amd64] https://download.docker.com/linux/debian buster stable' > /etc/apt/sources.list.d/docker.list
+apt-get update
+apt-get remove docker docker-engine docker.io
+apt-get install docker-ce
+
+Ater installation, Docker service will be started, but not enabled (i.e. it will not be started automatically after reboot). To start it:
+systemctl start docker
+
+To start Docker automatically upon reboot (do it on your own risk!):
+systemctl enable docker
+
+```
+
 [IoTSecFuzz](https://gitlab.com/invuls/iot-projects/iotsecfuzz)
 
 ```
@@ -39,6 +56,11 @@ chmod u+x baudrate.py
 ```
 sudo apt-get install openjdk-11-jdk
 Download and extract ghidra
+```
+
+[fwanalyzer](https://github.com/cruise-automation/fwanalyzer)
+
+```
 ```
 
 [Firmware Mod Kit](https://github.com/rampageX/firmware-mod-kit)
@@ -77,6 +99,8 @@ Edit firmadyne.config and make the FIRMWARE_DIR point to the current location of
 
 ```
 sudo apt-get install postgresql
+systemctl start postgresql.service
+systemctl enable postgresql.service 
 sudo -u postgres createuser -P firmadyne, with password firmadyne
 sudo -u postgres createdb -O firmadyne firmware
 sudo -u postgres psql -d firmware < ./firmadyne/database/schema
@@ -92,7 +116,7 @@ mv firmware-analysis-toolkit/reset.py .
 chmod +x fat.py 
 chmod +x reset.py
 ```
-
+Adjust the paths to firmadyne and binwalk in fat.py and reset.py. Additionally, provide the root password. Firmadyne requires root privileges for some of its operations. The root password is provided in the script itself to automate the process.
 ```
 # Configurations - change this according to your system
 firmadyne_path = "/home/ec/firmadyne"
@@ -266,6 +290,12 @@ sudo ./scripts/umount.sh 1
 ```
 
 Follow https://gitlab.com/bytesweep/bytesweep/blob/master/INSTALL.md
+Install Docker
+git clone https://gitlab.com/bytesweep/bytesweep.git
+cd docker
+./build-bytesweep.sh 
+./start-bytesweep.sh 
+
 ```
 
 [Volatility](https://www.volatilityfoundation.org/)
@@ -347,12 +377,75 @@ apt install gnuradio
 
 [GQRX](http://gqrx.dk/)
 
+#### Hardware
+
+[OpenOCD](https://installlion.com/kali/kali/main/o/openocd/install/index.html)
+
+```
+sudo apt-get install openocd
+
+```
+
+[Flashrom](https://www.flashrom.org/Flashrom)
+```
+sudo apt-get install flashrom
+```
+
+[minicom](https://linux.die.net/man/1/minicom)
+
+[ubi_reader](https://github.com/jrspruitt/ubi_reader)
+UBI Reader is a Python module and collection of scripts capable of extracting the contents of UBI and UBIFS images, along with analyzing these images to determine the parameter settings to recreate them using the mtd-utils tools.
+```
+sudo apt-get install liblzo2-dev
+sudo pip install python-lzo
+```
+Latest Version
+```
+git clone https://github.com/jrspruitt/ubi_reader
+cd ubi_reader
+sudo python setup.py install
+```
+Or
+```
+sudo pip install ubi_reader
+```
+
+[uboot write](https://www.denx.de/wiki/view/DULG/Manual)
+
+```
+sudo apt-get install u-boot-tools
+```
+[elfutils](https://installlion.com/kali/kali/main/e/elfutils/index.html)
+
+```
+sudo apt-get install elfutils
+```
+
+[pax-utils](https://installlion.com/kali/kali/main/p/pax-utils/install/index.html)
+
+```
+sudo apt-get install pax-utils
+
+```
+[prelink](https://installlion.com/kali/kali/main/p/prelink/install/index.html)
+
+```
+sudo apt-get install prelink
+
+```
+[lddtree]
+
+```
+Already installed
+```
+
+
 ## References Tools
 
 - https://github.com/V33RU/IoTSecurity101
 - https://github.com/adi0x90/attifyos
 - https://github.com/scriptingxss/EmbedOS
-
+- https://medium.com/@airman604/installing-docker-in-kali-linux-2017-1-fbaa4d1447fe
 
 # Firmware
 
