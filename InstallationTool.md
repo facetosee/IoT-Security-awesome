@@ -398,12 +398,17 @@ UBI Reader is a Python module and collection of scripts capable of extracting th
 ```
 sudo apt-get install liblzo2-dev
 sudo pip install python-lzo
+
 ```
 Latest Version
 ```
 git clone https://github.com/jrspruitt/ubi_reader
 cd ubi_reader
 sudo python setup.py install
+
+OR
+
+wget https://github.com/crmulliner/ubi_reader/archive/master.zip -O ubireader.zip && unzip ubireader.zip && cd ubi_reader-master && python setup.py install
 ```
 Or
 ```
@@ -438,7 +443,12 @@ sudo apt-get install prelink
 ```
 Already installed
 ```
+[mtools,etools,squashfs-tools,cpio]
 
+```
+apt install e2tools mtools file squashfs-tools unzip python-setuptools cpio
+
+```
 
 ## References Tools
 
