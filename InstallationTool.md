@@ -61,6 +61,12 @@ Download and extract ghidra
 [fwanalyzer](https://github.com/cruise-automation/fwanalyzer)
 
 ```
+git clone https://github.com/cruise-automation/fwanalyzer
+cd fwanlyzer
+docker build -t fwanalyzer .
+docker run -it fwanalyzer -v /dir/on/host:/dir/inside/container
+make deps
+make
 ```
 
 [Firmware Mod Kit](https://github.com/rampageX/firmware-mod-kit)
