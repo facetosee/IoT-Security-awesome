@@ -1,5 +1,12 @@
 # Tools
 
+[radare2)(https://github.com/radareorg/radare2)
+
+```
+git clone https://github.com/radareorg/radare2
+cd radare2
+sys/install.sh
+```
 [ExplIoT](https://expliot.readthedocs.io/en/latest/)
 
 ```
